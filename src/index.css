@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+.modal-open {
+  @apply overflow-hidden;
+}
+
+.title {
+  @apply text-xl md:text-2xl text-center uppercase my-6 font-medium py-8 border-y-2 border-y-gray-200;
+}
+
+.footer__title {
+  @apply text-white text-xl;
+}
+
+.grid-image {
+  @apply h-full w-full object-cover rounded-md;
+}
+
+.wrap {
+  overflow-wrap : anywhere;
+}
