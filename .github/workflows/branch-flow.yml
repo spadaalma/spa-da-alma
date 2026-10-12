@@ -1,21 +1,21 @@
 name: Fluxo de branches
 
-# main só recebe PR vindo da dev. Marque o job "só a dev entra na main"
+# main só recebe PR vindo da develop. Marque o job "só a develop entra na main"
 # como required status check na regra de proteção da main.
 on:
   pull_request:
     branches: [main]
 
 jobs:
-  so-dev-entra-na-main:
-    name: só a dev entra na main
+  so-develop-entra-na-main:
+    name: só a develop entra na main
     runs-on: ubuntu-latest
     steps:
       - name: Verifica a branch de origem
         env:
           HEAD_REF: ${{ github.head_ref }}
         run: |
-          if [ "$HEAD_REF" != "dev" ]; then
-            echo "::error::PR para main só pode vir da branch dev (veio de '$HEAD_REF'). Abra o PR para dev."
+          if [ "$HEAD_REF" != "develop" ]; then
+            echo "::error::PR para main só pode vir da branch develop (veio de '$HEAD_REF'). Abra o PR para develop."
             exit 1
           fi
