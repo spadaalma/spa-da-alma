@@ -120,6 +120,11 @@ const messages = {
           description:
             "A lareira é uma característica destacada desta casa de férias. Esta espaçosa casa de férias inclui 2 salas de estar, 5 quartos separados e 2 banheiros com chuveiro e bidê. A cozinha bem equipada possui um fogão, geladeira, utensílios de cozinha e um forno. Com um terraço com vistas para o jardim, esta casa de férias também oferece uma máquina de lavar roupa e uma TV de tela plana com canais via satélite. A unidade possui 8 camas.",
         },
+        everest: {
+          name: "everest",
+          description:
+            "Suíte de 45 m² com cama king extragrande e sofá-cama na sala. Tem hidromassagem privativa, lareira, ar-condicionado e aquecimento, além de cozinha compacta com cooktop, micro-ondas, cafeteira e torradeira. Da suíte se vê o jardim e as montanhas. As camas extralongas, a TV com serviços de streaming, o frigobar e o roupão de banho completam o conforto. O café da manhã é servido no chalé, sem você precisar sair.",
+        },
         cheverny: {
           name: "cheverny",
           description:

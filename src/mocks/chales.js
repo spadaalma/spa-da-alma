@@ -32,6 +32,19 @@ export default [
     description: i18n.t("cottage.martigny.description"),
   },
   {
+    name: i18n.t("cottage.everest.name"),
+    images: [
+      "/assets/chales/everest/everest.jpg",
+      "/assets/chales/everest/667150952.jpg",
+      "/assets/chales/everest/667150961.jpg",
+      "/assets/chales/everest/667150967.jpg",
+      "/assets/chales/everest/667150994.jpg",
+      "/assets/chales/everest/667150999.jpg",
+      "/assets/chales/everest/667151000.jpg",
+    ],
+    description: i18n.t("cottage.everest.description"),
+  },
+  {
     name: i18n.t("cottage.cheverny.name"),
     images: [
       "/assets/chales/cheverny/IMG_0312.JPG",

@@ -120,6 +120,11 @@ const messages = {
           description:
             "The fireplace is a top feature of this holiday home. This spacious holiday home includes 2 living rooms, 5 separate bedrooms, and 2 bathrooms with a shower and a bidet. The well-equipped kitchen has a stovetop, a refrigerator, kitchenware, and an oven. With a terrace boasting garden views, this holiday home also offers a washing machine and a flat-screen TV with satellite channels. The unit has 8 beds.",
         },
+        everest: {
+          name: "everest",
+          description:
+            "A 45 m² suite with an extra-large king bed and a sofa bed in the living room. It has a private whirlpool bath, fireplace, air conditioning and heating, plus a kitchenette with a cooktop, microwave, coffee maker and toaster. The suite overlooks the garden and the mountains. Extra-long beds, a TV with streaming services, a minibar and a bathrobe complete the comfort. Breakfast is served in the chalet, so you never have to leave.",
+        },
         cheverny: {
           name: "cheverny",
           description:
